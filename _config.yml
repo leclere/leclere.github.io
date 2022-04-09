@@ -178,14 +178,15 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+    sort_by: lesson
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
