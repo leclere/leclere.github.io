@@ -46,7 +46,6 @@ The course is in two part:
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
 [Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
 
-
 ### 11/03 - Convex analysis 2
 
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
@@ -68,18 +67,23 @@ The course is in two part:
 [Exercises](../files/teaching/2A-opti/TD/5-Algorithms.pdf)
 
 ### 15/04 - Gradient algorithms
+
 [slides](../files/teaching/2A-opti/slides/6-Gradient.pdf)
 
 ### 22/04 - Newton's algorithm
+
 [slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
 
 ### 13/05 - Constrained optimization
+
 [slides](../files/teaching/2A-opti/slides/8-Constrained.pdf)
 
 ### 20/05 - Interior points methods
+
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
 
 ### 27/05 - Stochastic Gradient (online)
+
 [slides](../files/teaching/2A-opti/slides/10-SG.pdf)
 
 ### 03/06 - Exam
