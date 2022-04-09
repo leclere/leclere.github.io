@@ -10,47 +10,75 @@ location: "ENPC, France"
 
 This is a 4th year course about continuous (mainly convex) optimization.
 
+The course is in two part:
 
-[Handout notes](../files/teaching/ROT/ROT_poly.pdf) [Youtube Playlist](https://www.youtube.com/playlist?list=PLWbSa0uhIdsbox7eHDOVDN1MoUi5TRacG)
+- Optimization under uncertainty through dynamic programming: 2 class and a project over the semester
+- Continuous optimization in three part
+  - convex analysis and optimization theory (4 classes)
+  - classical algorithms (3 classes)
+  - more advanced materials (3 classes)
 
-### Urban transportation transport analysis and introduction to game theory
+## Documents
 
-[slides](../files/teaching/ROT/ROT-1.pdf)
+- [Handout slides](../files/teaching/2A-opti/handout-2A-OC.pdf) 
+- [Reference book (BV) in the slides](https://web.stanford.edu/~boyd/cvxbook/)
+- [Another reference (french)](https://hal.archives-ouvertes.fr/hal-03347060)
 
-- We present the urban transport analysis framework
-- We recall the Braess's paradox
-- We give essential game theory definitions
+- [Project](../files/teaching/2A-opti/TP/Projet2022.pdf) to be done by group of 3 for the 27/05/2022. [Simulator code](../files/teaching/2A-opti/TP/zombies_simulator.jl)
+- [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
 
-### Shortest Path algorithms
+## Timeline
 
-[slides](../files/teaching/ROT/ROT-2.pdf)
+### 11/02 - Markov chain and Dynamic Programming
 
-- We give essential graph definitions, and define the shortest path problem
-- We present three algorithms:
-  - Djikstra
-  - Bellman
-  - A*
+[slides](../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf)
+[Exercises](../files/teaching/2A-opti/TD/1-MDP.pdf)
 
-### Wardrop equilibrium and price of anarchy
+### 18/02 - Dynamic Programming in infinite horizon
 
-[slides](../files/teaching/ROT/ROT-3.pdf)
+[slides](../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf)
+[Hands on (pdf)](../files/teaching/2A-opti/TP/Dice-trade.pdf)
+[Hands on (notebook)](../files/teaching/2A-opti/TP/TP_Dice_Trading.ipynb)
 
-- We recall some optimization background (Convexity, KKT's conditions)
-- We introduce the notion of Wardrop user equilibrium
-- We show that the user equilibrium can be found as the minimum of a convex optimization problem
-- We define and bound the price of anarchy
+### 25/02 - Convex analysis 1
 
-### Numerical methods for finding user equilibrium and social optimum
+[slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
+[Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
 
-[slides](../files/teaching/ROT/ROT-4.pdf)
 
-We have shown that finding the user equilibrium (or the social optimum) is equivalent to solving a convex optimization problem under polyhedral constraints.
-Thus, in this course we study numerical methods to find it.
+### 11/03 - Convex analysis 2
 
-- Numerical methods for univariate optimization
-- Conditional gradient (a.k.a Franck-Wolfe) algorithm
-- Application to equilibrium computation and comparison to known heuristics
+[slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
+[Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
 
-### Practical work
+### 18/03 - Optimality conditions
 
-### Other transport related operation research problems
+[slides](../files/teaching/2A-opti/slides/3-OptimalityConditions.pdf)
+[Exercises](../files/teaching/2A-opti/TD/3-OptimalityConditions.pdf)
+
+### 25/03 - Duality
+
+[slides](../files/teaching/2A-opti/slides/4-duality.pdf)
+[Exercises](../files/teaching/2A-opti/TD/4-Duality.pdf)
+
+### 01/04 - Algorithm's zoology
+
+[slides](../files/teaching/2A-opti/slides/5-Algorithm.pdf)
+[Exercises](../files/teaching/2A-opti/TD/5-Algorithms.pdf)
+
+### 15/04 - Gradient algorithms
+[slides](../files/teaching/2A-opti/slides/6-Gradient.pdf)
+
+### 22/04 - Newton's algorithm
+[slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
+
+### 13/05 - Constrained optimization
+[slides](../files/teaching/2A-opti/slides/8-Constrained.pdf)
+
+### 20/05 - Interior points methods
+[slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
+
+### 27/05 - Stochastic Gradient (online)
+[slides](../files/teaching/2A-opti/slides/10-SG.pdf)
+
+### 03/06 - Exam
