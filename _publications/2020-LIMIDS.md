@@ -1,6 +1,7 @@
 ---
 title: "Integer Programming on the Junction Tree Polytope for Influence Diagrams"
 collection: publication
+category: published
 permalink: /publication/2020-LIMIDS
 excerpt: 'Mathematical Programming methods for stochastic problems with structured information'
 date: 2020-07-24

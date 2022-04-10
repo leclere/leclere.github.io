@@ -1,6 +1,7 @@
 ---
 title: "Exact converging bounds for Stochastic Dual Dynamic Programming via Fenchel duality"
 collection: publication
+category: published
 permalink: /publication/2020-Dual-SDDP
 excerpt: 'Theory and convergence of dual SDDP'
 date: 2020-04-28

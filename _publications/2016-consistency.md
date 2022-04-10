@@ -1,6 +1,7 @@
 ---
 title: "Building up time-consistency for risk measures and dynamic optimization"
 collection: publication
+category: published
 permalink: /publication/2016-consistency
 excerpt: ''
 date: 2016-02-16

@@ -1,6 +1,7 @@
 ---
 title: "Epiconvergence of relaxed stochastic optimization problems"
 collection: publication
+category: published
 permalink: /publication/2019-Epiconv
 excerpt: 'Epiconvergence of approximated problems appearing in DADP'
 date: 2019-10-03

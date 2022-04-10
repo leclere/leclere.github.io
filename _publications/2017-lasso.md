@@ -1,6 +1,7 @@
 ---
 title: "Efficient smoothed concomitant lasso estimation for high dimensional regression"
 collection: publication
+category: published
 permalink: /publication/2015-SDDP
 excerpt: 'Safe screen rules for square-root lasso'
 date: 2017-10-01

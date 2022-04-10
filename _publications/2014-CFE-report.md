@@ -1,6 +1,7 @@
 ---
 title: "Optimization Methods for the Smart Grid"
-collection: report
+collection: publications
+category: report
 permalink: /publication/2014-CFE-report
 excerpt: ''
 date: 2014-10-14

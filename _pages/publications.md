@@ -11,6 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
+<h3>Journal Publications</h3>
+
 {% for post in site.publications reversed %}
+{%if {{post.category}} == "published" %}
   {% include archive-single.html %}
+{%endif%}
+{% endfor %}
+
+<h3>Proceedings or technical report </h3>
+
+{% for post in site.publications reversed %}
+{%if {{post.category}} == "report" %}
+  {% include archive-single.html %}
+{%endif%}
 {% endfor %}
