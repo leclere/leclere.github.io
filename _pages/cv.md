@@ -11,30 +11,28 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Multistage Stochastic Optimization, Université Paris-Est, 2014
+* M2, Applied Probability, Marne la Vallée, 2011
+* M2 Optimization and Game Theory, Paris VI, 2010
+* Engineer, Ecole Polytechnique, 2006-2010
+* Engineering Schoole prepartory classes, St Geneviève, 2004-2006
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2016 - now : Researcher at Ecole des Ponts
+
+* 2015 : Post-Doc at Berkeley
+
+* 2011 - 2014: Ph.D. at Ecole des Ponts
+
+* Autumn 2010: Engineering intern, EdF R&D
+
+* Summer 2010: Research Assistant, Rutgers University
+  * Markovian risk measures
+
+* Summer 2009: Research Assistant, McMaster University
+  * Financial Mathematics
 
 Publications
 ======
@@ -56,4 +54,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* SMAI-Mode elected member 
