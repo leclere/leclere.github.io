@@ -12,6 +12,6 @@ in there most up-to-date form.
 
 
 {% for post in site.tutorials reversed %}
-  {% include archive-single.html %}
+  {% include archive.html %}
 {% endfor %}
 

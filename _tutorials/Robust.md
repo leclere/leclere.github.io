@@ -15,6 +15,4 @@ In this tutorial we cover basic elements on Robust Optimization:
 + Adversarial / Reformulation techniques
 + Reformulation in the linear case
   
-  
 [slides](../files/talks/robust_optimization.pdf) 
-
