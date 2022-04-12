@@ -178,11 +178,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-    sort_by: lesson
-  publications:
+  tutorials:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  publications:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -214,6 +213,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorial
     values:
       layout: single
       author_profile: true
