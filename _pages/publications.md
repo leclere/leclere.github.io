@@ -14,7 +14,7 @@ author_profile: true
 <h2>Preprint </h2>
 
 {% for post in site.publications reversed %}
-{%if {{post.category}} == "preprint" %}
+{%if post.category == "preprint" %}
   {% include archive-single.html %}
 {%endif%}
 {% endfor %}
@@ -22,7 +22,7 @@ author_profile: true
 <h2>Journal Publications</h2>
 
 {% for post in site.publications reversed %}
-{%if {{post.category}} == "published" %}
+{%if post.category == "published" %}
   {% include archive-single.html %}
 {%endif%}
 {% endfor %}
@@ -30,7 +30,7 @@ author_profile: true
 <h2>Proceedings or technical report </h2>
 
 {% for post in site.publications reversed %}
-{%if {{post.category}} == "report" %}
+{%if post.category == "proceeding" or post.category == "report" %}
   {% include archive-single.html %}
 {%endif%}
 {% endfor %}
