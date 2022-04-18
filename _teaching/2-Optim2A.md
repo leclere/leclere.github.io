@@ -84,6 +84,8 @@ The course is in two part:
 
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
 
+[Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
+
 ### 27/05 - Stochastic Gradient (online)
 
 [slides](../files/teaching/2A-opti/slides/10-SG.pdf)
