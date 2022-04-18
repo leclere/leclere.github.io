@@ -74,6 +74,8 @@ The course is in two part:
 
 [slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
 
+[Hands on (notebook)](../files/teaching/2A-opti/TP/Gradient_methods_student.ipynb)
+
 ### 13/05 - Constrained optimization
 
 [slides](../files/teaching/2A-opti/slides/8-Constrained.pdf)
