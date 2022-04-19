@@ -22,8 +22,8 @@ The course is in two part:
 ## Documents
 
 - [Handout slides](../files/teaching/2A-opti/handout-2A-OC.pdf) 
-- [Reference book (BV) in the slides](https://web.stanford.edu/~boyd/cvxbook/)
-- [Another reference (french)](https://hal.archives-ouvertes.fr/hal-03347060)
+- [Reference book [BV] in the slides](https://web.stanford.edu/~boyd/cvxbook/)
+- [Another reference [JCG - French]](https://hal.archives-ouvertes.fr/hal-03347060)
 
 - [Project](../files/teaching/2A-opti/TP/Projet2022.pdf) to be done by group of 3 for the 27/05/2022. [Simulator code](../files/teaching/2A-opti/TP/zombies_simulator.jl)
 - [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
@@ -73,7 +73,6 @@ The course is in two part:
 ### 22/04 - Newton's algorithm
 
 [slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
-
 [Hands on (notebook)](../files/teaching/2A-opti/TP/Gradient_methods_student.ipynb)
 
 ### 13/05 - Constrained optimization
@@ -83,7 +82,6 @@ The course is in two part:
 ### 20/05 - Interior points methods
 
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
-
 [Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
 
 ### 27/05 - Stochastic Gradient (online)
