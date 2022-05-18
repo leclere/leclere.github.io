@@ -59,4 +59,6 @@ Thus, in this course we study numerical methods to find it.
 
 ### Practical work
 
+[TP](https://gdalle.github.io/ROT-TP/)
+
 ### Other transport related operation research problems
