@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2022-Erice
 venue: "Erice"
-date: 2018-05-24
+date: 2022-05-24
 location: "Erice, Italy"
 slides: "talks/20220520_ExactQuant_GAPM.pdf"
 paper: ""
