@@ -28,6 +28,10 @@ The course is in two part:
 - [Project](../files/teaching/2A-opti/TP/Projet2022.pdf) to be done by group of 3 for the 27/05/2022. [Simulator code](../files/teaching/2A-opti/TP/zombies_simulator.jl)
 - [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
 
+- [DM 22- with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
+- [DM 21- with answers](../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf)
+- [DS 21- with answers](../files/teaching/2A-opti/DS-DM/2021-exam-corr.pdf)
+
 ## Timeline
 
 ### 11/02 - Markov chain and Dynamic Programming
