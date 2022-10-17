@@ -34,29 +34,31 @@ The course is in two part: stochastic gradient and stochastic programming.
 
 [github link](https://github.com/leclere/TP-Saclay)
 
-### 1. Convex optimization tools for stochastic optimization
+### 1. Convex optimization tools for stochastic optimization (22/11/22) 14:00-16:30
 
 [slides](../files/teaching/Saclay/Saclay-1.pdf)
 
-### 2. Probability tools for stochastic optimization
+### 2. Probability tools for stochastic optimization (13/12/22) 9:00-12:30
 
 [slides](../files/teaching/Saclay/Saclay-2.pdf)
 
-### 3. Stochastic programming
+### 3. Stochastic programming (13/12/22) 14:00-16:30
 
 [slides](../files/teaching/Saclay/Saclay-3.pdf)
 
-### 4. Dynamic Programming and Bellman's Operators
+### 4. Dynamic Programming and Bellman's Operators (03/01/23) 14:00-16:30
 
 [slides](../files/teaching/Saclay/Saclay-4.pdf)
 
-### 5. Numerical methods for two-stage programming
+### 5. Numerical methods for two-stage programming (10/01/23) 14:00-16:30
 
 [slides](../files/teaching/Saclay/Saclay-5.pdf)
 
-### 6. Stochastic Dual Dynamic Programming
+### 6. Stochastic Dual Dynamic Programming (17/01/23) 14:00-16:30
 
 [slides](../files/teaching/Saclay/Saclay-6.pdf)
+
+### 7. Exam (31/01/23) 14:00-16:30
 
 ### Past exam
 

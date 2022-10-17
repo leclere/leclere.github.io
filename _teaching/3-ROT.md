@@ -19,7 +19,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 
 [Handout notes](../files/teaching/ROT/ROT_poly.pdf) [Youtube Playlist](https://www.youtube.com/playlist?list=PLWbSa0uhIdsbox7eHDOVDN1MoUi5TRacG)
 
-### Urban transportation transport analysis and introduction to game theory
+### 31/01/23 Urban transportation transport analysis and introduction to game theory
 
 [slides](../files/teaching/ROT/ROT-1.pdf)
 
@@ -27,7 +27,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 - We recall the Braess's paradox
 - We give essential game theory definitions
 
-### Shortest Path algorithms
+### 7/02/23 Shortest Path algorithms
 
 [slides](../files/teaching/ROT/ROT-2.pdf)
 
@@ -37,7 +37,7 @@ The course is topped-up by a practical work and various intervention showcasing 
   - Bellman
   - A*
 
-### Wardrop equilibrium and price of anarchy
+### 14/02/23 Wardrop equilibrium and price of anarchy
 
 [slides](../files/teaching/ROT/ROT-3.pdf)
 
@@ -46,7 +46,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 - We show that the user equilibrium can be found as the minimum of a convex optimization problem
 - We define and bound the price of anarchy
 
-### Numerical methods for finding user equilibrium and social optimum
+### 21/02/23 Numerical methods for finding user equilibrium and social optimum
 
 [slides](../files/teaching/ROT/ROT-4.pdf)
 
@@ -57,8 +57,10 @@ Thus, in this course we study numerical methods to find it.
 - Conditional gradient (a.k.a Franck-Wolfe) algorithm
 - Application to equilibrium computation and comparison to known heuristics
 
-### Practical work
+### 7/03/23 Practical work
 
 [TP](https://gdalle.github.io/ROT-TP/)
 
-### Other transport related operation research problems
+### 14/03/23 Other transport related operation research problems
+
+### 04/04/23 Exam
