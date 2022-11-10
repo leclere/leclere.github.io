@@ -16,7 +16,6 @@ The course is in two part: stochastic gradient and stochastic programming.
 ## Stochastic gradient and extensions (by O.Fercoq)
 
 [courses notes](../files/teaching/Saclay/fercoq/poly_optsto_fercoq.pdf)
-[exercises](../files/teaching/Saclay/fercoq/td_backpropagation.pdf)
 [practical work](../files/teaching/Saclay/fercoq/TP_MNIST_basic_functions.ipynb)
 
 - Introduction
