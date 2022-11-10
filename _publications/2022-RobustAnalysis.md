@@ -4,7 +4,7 @@ authors: 'J. Bleyer, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2022-RobustAnalysis
-excerpt: 'We show that MLSP with arbitrary cost are equivalent to MLSP with discrete cost and give a geometrical insight to the discretization procedure.'
+excerpt: 'This work proposes a novel theoretical framework of robust limit analysis i.e. the computation of limit loads of structures in presence of uncertainties using limit analysis and robust optimization theories.'
 date: 2022-03-21
 venue: ''
 paperurl: 'https://arxiv.org/abs/2203.11354'
