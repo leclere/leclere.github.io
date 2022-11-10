@@ -1,7 +1,7 @@
 ---
 title: "Epiconvergence of relaxed stochastic optimization problems"
 authors:'V. Leclère'
-collection: publication
+collection: publications
 category: published
 permalink: /publication/2019-Epiconv
 excerpt: 'Epiconvergence of approximated problems appearing in DADP'

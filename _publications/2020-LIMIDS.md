@@ -1,7 +1,7 @@
 ---
 title: "Integer Programming on the Junction Tree Polytope for Influence Diagrams"
 authors:'A. Parmentier, V. Cohen, V. Leclère, J. Salmon, G. Obozinski'
-collection: publication
+collection: publications
 category: published
 permalink: /publication/2020-LIMIDS
 excerpt: 'Mathematical Programming methods for stochastic problems with structured information'
