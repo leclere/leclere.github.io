@@ -23,6 +23,7 @@ author_profile: true
 
 {% for post in site.publications reversed %}
 {%if post.category == "published" %}
+<p>test</p>
   {% include archive-single.html %}
 {%endif%}
 {% endfor %}
