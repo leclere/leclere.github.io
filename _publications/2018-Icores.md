@@ -1,7 +1,7 @@
 ---
 title: " Stochastic Multi-item Lot-sizing Problem
 with Bounded Number of Setups"
-authors:'E. De Saint Germain, F. Meunier, V. Leclère'
+authors: 'E. De Saint Germain, F. Meunier, V. Leclère'
 collection: publications
 category: proceeding
 permalink: /publication/2018-Icores

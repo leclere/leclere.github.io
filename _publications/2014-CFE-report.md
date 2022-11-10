@@ -1,6 +1,6 @@
 ---
 title: "Optimization Methods for the Smart Grid"
-authors:'P. Carpentier, J-Ph. Chancelier, M. De Lara, V.Leclère'
+authors: 'P. Carpentier, J-Ph. Chancelier, M. De Lara, V.Leclère'
 collection: publications
 category: report
 permalink: /publication/2014-CFE-report

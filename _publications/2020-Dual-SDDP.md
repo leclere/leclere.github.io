@@ -1,6 +1,6 @@
 ---
 title: "Exact converging bounds for Stochastic Dual Dynamic Programming via Fenchel duality"
-authors:'V. Leclère, P. Carpentier, J-Ph. Chancelier, F. Pacaud'
+authors: 'V. Leclère, P. Carpentier, J-Ph. Chancelier, F. Pacaud'
 collection: publications
 category: published
 permalink: /publication/2020-Dual-SDDP

@@ -1,6 +1,6 @@
 ---
 title: "Building up time-consistency for risk measures and dynamic optimization"
-authors:'M. De Lara, V. Leclère'
+authors: 'M. De Lara, V. Leclère'
 collection: publications
 category: published
 permalink: /publication/2016-consistency
