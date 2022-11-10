@@ -1,12 +1,13 @@
 ---
 title: "Optimization Methods for the Smart Grid"
+authors:'P. Carpentier, J-Ph. Chancelier, M. De Lara, V.Leclère'
 collection: publications
 category: report
 permalink: /publication/2014-CFE-report
 excerpt: ''
 date: 2014-10-14
 venue: 'Technical report'
-paperurl: ''
+paperurl: 'http://cermics.enpc.fr/~delara/SESO/SESO2014/CFE_GridOptim.pdf'
 citation: 'De Lara, Michel, et al. "Optimization methods for the smart grid." Report commissioned by the Conseil Français de l’Energie, Ecole des Ponts ParisTech (2014).'
 ---
 The world’s energy landscape is changing fast. Three key drivers are remolding power sys-

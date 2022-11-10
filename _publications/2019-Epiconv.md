@@ -1,5 +1,6 @@
 ---
 title: "Epiconvergence of relaxed stochastic optimization problems"
+authors:'V. Leclère'
 collection: publication
 category: published
 permalink: /publication/2019-Epiconv

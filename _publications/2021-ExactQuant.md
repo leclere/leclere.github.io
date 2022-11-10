@@ -1,5 +1,6 @@
 ---
 title: "Exact quantization of multistage stochastic linear problems"
+authors: 'M. Forcier, S. Gaubert, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2021-ExactQuant

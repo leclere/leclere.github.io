@@ -1,5 +1,6 @@
 ---
 title: "Efficient smoothed concomitant lasso estimation for high dimensional regression"
+authors:'E. Ndiaye, O. Fercoq, A. Gramfort, V. Leclère, J. Salmon'
 collection: publication
 category: published
 permalink: /publication/2017-Lasso

@@ -1,5 +1,6 @@
 ---
 title: "Robust limit analysis theory for computing worst-case limit loads under uncertainties"
+authors: 'J. Bleyer, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2022-RobustAnalysis

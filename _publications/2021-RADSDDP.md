@@ -1,5 +1,6 @@
 ---
 title: "Dual SDDP for risk-averse multistage stochastic programs"
+authors: 'B. Da Costa, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2021-RADSDDP
