@@ -22,7 +22,6 @@ author_profile: true
 <h2>Journal Publications</h2>
 
 {% for post in site.publications reversed %}
-<p>test {{post.category}}</p>
 {%if post.category == "published" %}
   {% include archive-single.html %}
 {%endif%}
