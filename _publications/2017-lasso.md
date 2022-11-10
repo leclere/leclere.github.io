@@ -2,7 +2,7 @@
 title: "Efficient smoothed concomitant lasso estimation for high dimensional regression"
 collection: publication
 category: published
-permalink: /publication/2015-SDDP
+permalink: /publication/2017-Lasso
 excerpt: 'Safe screen rules for square-root lasso'
 date: 2017-10-01
 venue: 'Journal of Physics: Conference Series'
