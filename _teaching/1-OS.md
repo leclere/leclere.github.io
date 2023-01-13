@@ -45,6 +45,7 @@ Covering
 
 
 ### Practical work
+To be sent by email for the 20/02/2023.
 
 [github link](https://github.com/leclere/TP-Saclay)
 
