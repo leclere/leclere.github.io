@@ -9,6 +9,8 @@ location: "ENSTA, France"
 lesson: 1
 ---
 
+* Course schedule modified: Stochastic Programming full day on the 17th*
+
 This is a master level course about stochastic optimization that take place
 at ENSTA-Paris, room 1226. 
 See [here](https://www.ensta-paris.fr/en/addresses-and-contacts) for access information.
@@ -25,10 +27,10 @@ Schedule:
 ### (22/11/22) 9:15-12:00
 ### (06/12/22) 9:15-12:00
 ### (06/12/22) 13:30-16:15
-### (03/01/23) 13:30-16:15
+### (03/01/23) 9:15-12:00
+### (10/01/23) 9:15-12:00
 ### (10/01/23) 13:30-16:15
-### (17/01/23) 13:30-16:15
-### (31/01/23) 13:30-16:15 (Exam)
+### (31/01/23) 9:15-12:00 (Exam)
 
 Covering
 - Introduction
@@ -62,7 +64,7 @@ Covering
 
 [slides](../files/teaching/Saclay/Saclay-4.pdf)
 
-### 5. Numerical methods for two-stage programming (10/01/23) 13:30-16:15
+### 5. Numerical methods for two-stage programming (17/01/23) 9:15-12:00
 
 [slides](../files/teaching/Saclay/Saclay-5.pdf)
 
