@@ -15,7 +15,7 @@ Education
 * M2, Applied Probability, Marne la Vallée, 2011
 * M2 Optimization and Game Theory, Paris VI, 2010
 * Engineer, Ecole Polytechnique, 2006-2010
-* Engineering Schoole prepartory classes, St Geneviève, 2004-2006
+* Engineering School preparatory classes, St Geneviève, 2004-2006
 
 Work experience
 ======
