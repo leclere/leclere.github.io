@@ -72,6 +72,7 @@ To be sent by email for the 20/02/2023.
 ### 6. Stochastic Dual Dynamic Programming (17/01/23) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-6.pdf)
+[slides Robust Optimization](../files/teaching/Saclay/Saclay-7.pdf)
 
 ### 7. Exam (31/01/23) 13:30-16:15
 
