@@ -30,7 +30,7 @@ The course is in two part:
 
 
 - [DM 22- with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
-- - [DS 22- with answers](../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf)
+- [DS 22- with answers](../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf)
 - [DM 21- with answers](../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf)
 - [DS 21- with answers](../files/teaching/2A-opti/DS-DM/2021-exam-corr.pdf)
 
