@@ -64,3 +64,7 @@ Thus, in this course we study numerical methods to find it.
 ### 14/03/23 Other transport related operation research problems
 
 ### 04/04/23 Exam
+[Exam 2017](../files/teaching/ROT/DS_2017.pdf)
+[Exam 2018](../files/teaching/ROT/DS_2018.pdf)
+[Exam 2019](../files/teaching/ROT/DS_2019.pdf)
+[Exam 2021](../files/teaching/ROT/DS_2021.pdf)
