@@ -25,10 +25,9 @@ The course is in two part:
 - [Reference book [BV] in the slides](https://web.stanford.edu/~boyd/cvxbook/)
 - [Another reference [JCG - French]](https://hal.archives-ouvertes.fr/hal-03347060)
 
-- [Project](../files/teaching/2A-opti/TP/Dice-trade.pdf) to be done by pair for the 28/04/2022. 
+- [Project](../files/teaching/2A-opti/TP/Dice-trade.pdf) to be done by pair for the 28/04/2022.
 - [DM 23](../files/teaching/2A-opti/DS-DM/DM1-2023.pdf) to be returned on 12/05
 - [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
-
 
 - [DM 22- with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
 - [DS 22- with answers](../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf)
