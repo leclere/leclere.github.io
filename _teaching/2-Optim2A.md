@@ -26,6 +26,7 @@ The course is in two part:
 - [Another reference [JCG - French]](https://hal.archives-ouvertes.fr/hal-03347060)
 
 - [Project](../files/teaching/2A-opti/TP/Dice-trade.pdf) to be done by pair for the 28/04/2022. 
+- [DM 23](../files/teaching/2A-opti/DS-DM/DM1-2023.pdf) to be returned on 12/05
 - [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
 
 
@@ -72,13 +73,13 @@ The course is in two part:
 [slides](../files/teaching/2A-opti/slides/5-Algorithm.pdf)
 [Exercises](../files/teaching/2A-opti/TD/5-Algorithms.pdf)
 
-### 28/04/23 - Gradient algorithms
+### 28/04/23 - Gradient and Newton's algorithms
 
 [slides](../files/teaching/2A-opti/slides/6-Gradient.pdf)
-
-### 12/05/23 - Newton's algorithm
-
 [slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
+
+### 12/05/23 - Practical work on algorithms
+
 [Hands on (notebook)](../files/teaching/2A-opti/TP/Gradient_methods_student.ipynb)
 
 ### 26/05/23 - Constrained optimization
@@ -90,7 +91,7 @@ The course is in two part:
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
 [Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
 
-### 09/06/23 - Stochastic Gradient (online)
+### 09/06/23 - Stochastic Gradient
 
 [slides](../files/teaching/2A-opti/slides/10-SG.pdf)
 
