@@ -1,6 +1,6 @@
 ---
 title: "Joint Production and Energy Supply Planning of an Industrial Microgrid"
-authors: 'Z. Fornier, V. Leclère'
+authors: 'Z. Fornier, D. Grosso, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2023-Microgrid
