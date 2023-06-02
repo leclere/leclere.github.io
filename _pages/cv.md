@@ -9,8 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+An extended [pdf](https://leclere.github.io/files/cv_academique_en.pdf) version.
+
 Education
 ======
+* HDR in Mathematics, Université Gustave Eiffel, 2023
 * Ph.D in Multistage Stochastic Optimization, Université Paris-Est, 2014
 * M2, Applied Probability, Marne la Vallée, 2011
 * M2 Optimization and Game Theory, Paris VI, 2010
