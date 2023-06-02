@@ -5,7 +5,7 @@ collection: publications
 category: published
 permalink: /publication/2021-RADSDDP
 excerpt: 'We apply a dual SDDP approach to risk averse problem.'
-date: 2021-07-22
+date: 2023-04-22
 venue: 'Operation Research Letters'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0167637723000603'
 citation: ''
