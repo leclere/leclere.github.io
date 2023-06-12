@@ -34,6 +34,8 @@ The course is in two part:
 - [DM 21- with answers](../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf)
 - [DS 21- with answers](../files/teaching/2A-opti/DS-DM/2021-exam-corr.pdf)
 
+- [Short answers to some exercises](../files/teaching/2A-opti/TD/answered_exercises.pdf)
+
 ## Timeline
 
 ### 24/02/23 - Markov chain and Dynamic Programming

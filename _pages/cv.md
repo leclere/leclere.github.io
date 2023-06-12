@@ -57,4 +57,4 @@ Teaching
   
 Service and leadership
 ======
-* SMAI-Mode elected member 
+* SMAI-MODE elected member 

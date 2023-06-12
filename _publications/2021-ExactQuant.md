@@ -4,7 +4,9 @@ authors: 'M. Forcier, S. Gaubert, V. Leclère'
 collection: publications
 category: preprint
 permalink: /publication/2021-ExactQuant
-excerpt: 'We show that MLSP with arbitrary cost are equivalent to MLSP with discrete cost and give a geometrical insight to the discretization procedure.'
+excerpt: 'We show that MLSP with arbitrary cost are equivalent to MLSP with discrete cost and give a geometrical insight to the discretization procedure.
+
+Best student paper at ECSO-CMS 2022.'
 date: 2021-07-22
 venue: ''
 paperurl: 'https://arxiv.org/abs/2107.09566'
