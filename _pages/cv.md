@@ -57,4 +57,7 @@ Teaching
   
 Service and leadership
 ======
+* Member of COSP 
+* SMAI Vice President for relationship with industry
 * SMAI-MODE elected member 
+* Elected member of Ecole des Ponts'  
