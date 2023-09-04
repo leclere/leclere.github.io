@@ -2,15 +2,15 @@
 title: "Exact quantization of multistage stochastic linear problems"
 authors: 'M. Forcier, S. Gaubert, V. Leclère'
 collection: publications
-category: preprint
+category: published
 permalink: /publication/2021-ExactQuant
 excerpt: 'We show that MLSP with arbitrary cost are equivalent to MLSP with discrete cost and give a geometrical insight to the discretization procedure.
 
 Best student paper at ECSO-CMS 2022.'
-date: 2021-07-22
-venue: ''
-paperurl: 'https://arxiv.org/abs/2107.09566'
-citation: 'Forcier, Maël, Stéphane Gaubert, and Vincent Leclère. "Exact quantization of multistage stochastic linear problems." arXiv preprint arXiv:2107.09566 (2021).'
+date: 2023-08-31
+venue: 'SIAM journal on Optimization'
+paperurl: 'https://leclere.github.io/files/paper/2023-Exact-Quantization.pdf'
+citation: ''
 ---
 Best student paper at ECSO-CMS 2022.
 
