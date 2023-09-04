@@ -1,5 +1,6 @@
 ---
-title: "Joint Production and Energy Supply Planning of an Industrial Microgrid"
+title: "Duality of upper bounds in stochastic dynamic
+programming"
 authors: 'B.F.P da Costa, V. Leclère'
 collection: publications
 category: preprint
