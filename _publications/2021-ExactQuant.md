@@ -9,7 +9,7 @@ excerpt: 'We show that MLSP with arbitrary cost are equivalent to MLSP with disc
 Best student paper at ECSO-CMS 2022.'
 date: 2023-08-31
 venue: 'SIAM journal on Optimization'
-paperurl: 'https://leclere.github.io/files/paper/2023-Exact-Quantization.pdf'
+paperurl: 'https://leclere.github.io/files/papers/2023-Exact-Quantization.pdf'
 citation: ''
 ---
 Best student paper at ECSO-CMS 2022.
