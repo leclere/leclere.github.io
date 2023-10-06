@@ -19,3 +19,6 @@ Some news:
 - [My Tutorial on SDDP](https://leclere.github.io/talks/SDDP) at ICSP 2023 
 - We got the 2022 Best Paper Award of Operations Research Letters for our paper [*Generalized adaptive partition-based method for two-stage stochastic linear programs: Geometric oracle and analysis*](https://leclere.github.io/publication/2021-GAPM) with Maël Forcier
 - I defended my [Habilitation à Diriger des Recherches](https://leclere.github.io/files/hdr.pdf) en avril 2023
+
+Some useful links:
+- A [tutorial](https://modernjuliaworkflows.github.io/) on how to set-up a good environment to work with Julia
