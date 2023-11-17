@@ -64,4 +64,5 @@ To be sent by email for the 20/02/2023.
 
 ### References
 
-- [Lectures on Stochastic Programming, Shapiro, Dentcheva, Ruszczynski](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf)
+- [Lectures on Stochastic Programming, Shapiro, Dentcheva, Ruszczynski](https://www.researchgate.net/publication/230873408_Lectures_on_stochastic_programming_Modeling_and_theory/link/00b7d518bd65f08595000000/download)
+- [Theory and applications of robust optimization, Bertsimas, Brown, Caramis](https://www.jstor.org/stable/23070141)
