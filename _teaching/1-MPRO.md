@@ -33,6 +33,7 @@ To be sent by email for the 20/02/2023.
 
 ### 2. Robust Optimization principles (24/11/23) 9:00 - 12:30
 (St Martin:Accès 21‑Etage 1‑Salle 20)
+[slides](../files/teaching/MPRO/MPRO-2.pdf)
 * Robust optimization principles
 * Solving methodologies
 * The linear case
