@@ -49,32 +49,32 @@ To be sent by email for the 20/02/2023.
 
 [github link](https://github.com/leclere/TP-Saclay)
 
-### 1. Convex optimization tools for stochastic optimization (22/11/22) 13:30-16:15
+### 1. Introduction to stochastic optimization (5/12/23) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-1.pdf)
 
-### 2. Probability tools for stochastic optimization (13/12/22) 9:15-12:00
+### 2. Two-stage problems (12/12/23) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-2.pdf)
 
-### 3. Stochastic programming (13/12/22) 13:30-16:15
+### 3. Dynamic Programming and Bellman's Operators (19/12/22) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-3.pdf)
 
-### 4. Dynamic Programming and Bellman's Operators (03/01/23) 13:30-16:15
+### 4. Numerical methods for two-stage programming (09/01/24) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-4.pdf)
 
-### 5. Numerical methods for two-stage programming (17/01/23) 9:15-12:00
+### 5. Stochastic Dual Dynamic Programming (16/01/24) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-5.pdf)
 
-### 6. Stochastic Dual Dynamic Programming (17/01/23) 13:30-16:15
+### 6. Robust optimization (23/01/24) 13:30-16:15
 
 [slides](../files/teaching/Saclay/Saclay-6.pdf)
 [slides Robust Optimization](../files/teaching/Saclay/Saclay-7.pdf)
 
-### 7. Exam (31/01/23) 13:30-16:15
+### 7. Exam (30/01/24) 13:30-16:15
 
 ### Past exam
 

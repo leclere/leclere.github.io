@@ -41,6 +41,7 @@ To be sent by email for the 20/02/2023.
 
 ### 3. Decomposition methods for two-stage stochastic programming (01/12/23) 9:00 - 12:30
 (Amphi Prouvé accès 11 RDC)
+[slides](../files/teaching/MPRO/MPRO-3.pdf)
 * L-shaped decomposition
 * Progressive Hedging
 * Extension to multistage
