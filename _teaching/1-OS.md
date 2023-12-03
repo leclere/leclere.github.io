@@ -24,13 +24,13 @@ The course is in two part: stochastic gradient and stochastic programming.
 [practical work](../files/teaching/Saclay/fercoq/TP_MNIST_basic_functions.ipynb)
 
 Schedule:
-### (22/11/22) 9:15-12:00
-### (06/12/22) 9:15-12:00
-### (06/12/22) 13:30-16:15
-### (03/01/23) 9:15-12:00
-### (10/01/23) 9:15-12:00
-### (10/01/23) 13:30-16:15
-### (31/01/23) 9:15-12:00 (Exam)
+### (5/12/23) 9:15-12:00
+### (12/12/22) 9:15-12:00
+### (19/12/22) 9:15-12:00
+### (09/01/23) 9:15-12:00
+### (16/01/23) 9:15-12:00
+### (23/01/23) 9:15-12:00
+### (30/01/23) 9:15-12:00 (Exam)
 
 Covering
 - Introduction
@@ -45,7 +45,7 @@ Covering
 
 
 ### Practical work
-To be sent by email for the 20/02/2023.
+To be sent by email for the 07/01/24.
 
 [github link](https://github.com/leclere/TP-Saclay)
 
