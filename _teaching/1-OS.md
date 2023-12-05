@@ -39,6 +39,9 @@ Covering
 - Adaptative step-sizes
 - Coordinate descent
 
+### Past exam
+[2023](../files/teaching/Saclay/fercoq/exam2023.pdf)
+
 ## Stochastic and Dynamic programming (by V. Leclère)
 
 [Printable Handout](../files/teaching/Saclay/Saclay-handout.pdf)
