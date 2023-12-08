@@ -48,6 +48,7 @@ To be sent by email for the 20/02/2023.
 
 ### 4. Numerical methods for multistage stochastic programming (08/12/23) 9:00 - 12:30
 (St Martin:Accès 17‑Etage 1‑Salle 04)
+[slides](../files/teaching/MPRO/MPRO-4.pdf)
 * Heuristics: Model Predictive Control, (Repeated) Two-stage approximation
 * Dynamic Programming principle and extensions
 * SDDP algorithm for convex case
