@@ -54,11 +54,13 @@ To be sent by email for the 20/02/2023.
 * SDDP algorithm for convex case
 
 ### 5. Numerical methods for robust optimization (15/12/23) 9:00 - 12:30
+(Conté : Accès 31 Etage 1 Salle 67)
 * Budget constrained model (Bertsimas-Sim), reformulations and guarantee
 * Recourse model: affine decision rules, K-adaptability
 
 
 ### 6. Exam (22/12/23) 9:00 - 12:00
+(Conté : Accès 31 Etage 1 Salle 71)
 
 ### Past exam (other course)
 
