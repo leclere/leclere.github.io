@@ -55,8 +55,10 @@ To be sent by email for the 20/02/2023.
 
 ### 5. Numerical methods for robust optimization (15/12/23) 9:00 - 12:30
 (Conté : Accès 31 Etage 1 Salle 67)
-* Budget constrained model (Bertsimas-Sim), reformulations and guarantee
+[slides](../files/teaching/MPRO/MPRO-5.pdf)
+[slides Risk-measures](../files/teaching/MPRO/risk_measures.pdf)
 * Recourse model: affine decision rules, K-adaptability
+* Risk measures
 
 
 ### 6. Exam (22/12/23) 9:00 - 12:00
