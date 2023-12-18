@@ -62,12 +62,14 @@ To be sent by email for the 20/02/2023.
 
 
 ### 6. Exam (22/12/23) 9:00 - 12:00
-(Conté : Accès 31 Etage 1 Salle 71)
+(Conté : Amphitheatre Gaston Planté)
 
 ### Past exam (other course)
 
 - [2018](../files/teaching/Saclay/2018-exam-OS.pdf) [answers](../files/teaching/Saclay/2018-exam-answers-OS.pdf)
 - [2019](../files/teaching/Saclay/2019-exam-OS.pdf) [answers](../files/teaching/Saclay/2019-exam-answers-OS.pdf)
+- [2020](../files/teaching/Saclay/2020-exam-OS.pdf)
+- [2021](../files/teaching/Saclay/2021-exam-OS.pdf) [answers](../files/teaching/Saclay/2021-exam-answers-OS.pdf)
 
 ### References
 
