@@ -3,7 +3,7 @@ title: "Joint production and energy supply planning
 of an industrial microgrid"
 authors: 'Z. Fornier, D. Grosso, P. Pinson'
 collection: publications
-category: paper
+category: published
 permalink: /publication/2023-Microgrid
 excerpt: 'Joint production and energy supply planning
 of an industrial microgrid'
