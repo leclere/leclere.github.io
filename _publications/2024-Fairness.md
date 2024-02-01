@@ -5,7 +5,7 @@ collection: publications
 category: preprint
 permalink: /publication/2024-Guaranteed
 excerpt: 'Fairness by design in shared-energy allocation problems'
-date: 2024-31-01
+date: 2024-01-31
 venue: ''
 paperurl: 'https://leclere.github.io/files/papers/2024-Fairness.pdf'
 citation: ''

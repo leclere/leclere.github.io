@@ -7,7 +7,7 @@ category: published
 permalink: /publication/2023-Microgrid
 excerpt: 'Joint production and energy supply planning
 of an industrial microgrid'
-date: 2024-31-01
+date: 2024-01-31
 venue: 'Energy Systems'
 paperurl: 'https://leclere.github.io/files/papers/2023-Microgrid.pdf'
 citation: ''

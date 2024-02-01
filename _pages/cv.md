@@ -42,7 +42,7 @@ Service and leadership
 * Member of [COSP](https://stoprog.org/cosp-members) (2023-2025)
 * [SMAI](http://smai.emath.fr/spip.php?article2&lang=fr) Vice President for relationship with industry (2023-...)
 * [SMAI-MODE](http://smai.emath.fr/spip.php?article338&lang=fr) elected member (2018-2024)
-<!-- * Animation of [Robust Decision Working Axis](http://gdrro.lip6.fr/?q=node/240) of CNRS's research group on operation research (2023-...) -->
+* Animation of [Robust Decision Working Axis](http://gdrro.lip6.fr/?q=node/240) of CNRS's research group on operation research (2023-...) 
 * Elected member of Ecole des Ponts' Council on Research and Teaching (2019-2025)
 
 
