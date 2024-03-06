@@ -38,62 +38,62 @@ The course is in two part:
 
 ## Timeline
 
-### 24/02/23 - Markov chain and Dynamic Programming
+### 01/03/24 - Markov chain and Dynamic Programming
 
 [slides](../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf)
 [Exercises](../files/teaching/2A-opti/TD/1-MDP.pdf)
 
-### 10/03/23 - Dynamic Programming in infinite horizon
+### 08/03/24 - Dynamic Programming in infinite horizon
 
 [slides](../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf)
 [Hands on (pdf)](../files/teaching/2A-opti/TP/Dice-trade.pdf)
 [Hands on (notebook)](../files/teaching/2A-opti/TP/TP_Dice_Trading.ipynb)
 
-### 17/03/23 - Convex analysis 1
+### 15/03/24 - Convex analysis 1
 
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
 [Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
 
-### 24/03/23 - Convex analysis 2
+### 22/03/24 - Convex analysis 2
 
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
 [Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
 
-### 31/03/23 - Optimality conditions
+### 29/03/24 - Optimality conditions
 
 [slides](../files/teaching/2A-opti/slides/3-OptimalityConditions.pdf)
 [Exercises](../files/teaching/2A-opti/TD/3-OptimalityConditions.pdf)
 
-### 14/04/23 - Duality
+### 12/04/24 - Duality
 
 [slides](../files/teaching/2A-opti/slides/4-duality.pdf)
 [Exercises](../files/teaching/2A-opti/TD/4-Duality.pdf)
 
-### 21/04/23 - Algorithm's zoology
+### 26/04/24 - Algorithm's zoology
 
 [slides](../files/teaching/2A-opti/slides/5-Algorithm.pdf)
 [Exercises](../files/teaching/2A-opti/TD/5-Algorithms.pdf)
 
-### 28/04/23 - Gradient and Newton's algorithms
+### 03/05/24 - Gradient and Newton's algorithms
 
 [slides](../files/teaching/2A-opti/slides/6-Gradient.pdf)
 [slides](../files/teaching/2A-opti/slides/7-Newton.pdf)
 
-### 12/05/23 - Practical work on algorithms
+### 17/05/24 - Practical work on algorithms
 
 [Hands on (notebook)](../files/teaching/2A-opti/TP/Gradient_methods_student.ipynb)
 
-### 26/05/23 - Constrained optimization
+### 24/05/24 - Constrained optimization
 
 [slides](../files/teaching/2A-opti/slides/8-Constrained.pdf)
 
-### 02/06/23 - Interior points methods
+### 31/05/24 - Interior points methods
 
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
 [Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
 
-### 09/06/23 - Stochastic Gradient
+### 07/06/24 - Stochastic Gradient
 
 [slides](../files/teaching/2A-opti/slides/10-SG.pdf)
 
-### 16/06/23 - Exam
+### 14/06/24 - Exam
