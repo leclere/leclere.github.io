@@ -5,7 +5,7 @@ collection: publications
 category: preprint
 permalink: /publication/2024-Guaranteed
 excerpt: 'Policy with guaranteed risk-adjusted performance for multistage stochastic linear problems'
-date: 2024-31-01
+date: 2024-01-31
 venue: ''
 paperurl: 'https://leclere.github.io/files/papers/2024-guaranteed-policy.pdf'
 citation: ''
