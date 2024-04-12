@@ -31,6 +31,9 @@ Some recommended mailing lists:
 - [GdR ROD](http://gdrro.lip6.fr/?q=node/24), very active list of french operation research society. 
 - [Stoprog](https://stoprog.org/mailman/listinfo/stoprog), stochastic programming society mailing list (worldwide)
 - [EWGSO](https://www.mii.lt/ewgso/index.php?page,members.en), european working group on stochastic optimization
+- [Lettre SMAI-MODE](http://smai.emath.fr/spip.php?article343&lang=fr), once a monce, focused on optimization
+- [Lettre SMAI](http://smai.emath.fr/base/adhesions_web/) every week, send new conferences info
+- [PGMO](https://listes.mathrice.fr/math.cnrs.fr/subscribe/pgmo-diffusion) french optimization and energy
 
 
 Some other useful links:
