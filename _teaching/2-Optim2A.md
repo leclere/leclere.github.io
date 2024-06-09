@@ -26,9 +26,13 @@ The course is in two part:
 - [Another reference [JCG - French]](https://hal.archives-ouvertes.fr/hal-03347060)
 
 - [Project](../files/teaching/2A-opti/TP/Dice-trade.pdf) to be done by pair for the 03/05/2024.
-- [DM 24](../files/teaching/2A-opti/DS-DM/DM1-2024.pdf) to be returned on 17/05/2024
+ to be returned on 17/05/2024
 - [A notebook](../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb) to get a hand on julia.
 
+- [DM 24- with answers](../files/teaching/2A-opti/DS-DM/DM1-2024-corr.pdf)
+- [DM 24](../files/teaching/2A-opti/DS-DM/DM1-2024.pdf)
+- [DS 23- with answers](../files/teaching/2A-opti/DS-DM/2023-exam-corr.pdf)
+- [DM 23](../files/teaching/2A-opti/DS-DM/DM1-2023.pdf)
 - [DM 22- with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
 - [DS 22- with answers](../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf)
 - [DM 21- with answers](../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf)
