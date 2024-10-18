@@ -15,7 +15,7 @@ You'll find there my [publications](https://leclere.github.io/publications/), [t
 Some news:
 
 <!-- - We have an open [2 years post-doc opportunity](https://cermics-lab.enpc.fr/cauchy-fellowship/). Please reach out if you are interested! -->
-- We are organizing [ICSP XVII 28/07-01/08/2025](https://cermics-lab.enpc.fr/icsp2025/) at Ecole des Ponts
+- We are organizing [ICSP XVII 28/07-01/08/2025](https://www.icsp2025.org/) at Ecole des Ponts
 - I was elected as VP to relationship with industry of [SMAI](http://smai.emath.fr/)
 - [My Tutorial on SDDP](https://leclere.github.io/talks/SDDP) at ICSP 2023 
 - We got the 2022 Best Paper Award of Operations Research Letters for our paper [*Generalized adaptive partition-based method for two-stage stochastic linear programs: Geometric oracle and analysis*](https://leclere.github.io/publication/2021-GAPM) with Maël Forcier
@@ -23,17 +23,17 @@ Some news:
 
 Some recommended seminars:
 - [Stochastic Programming webinars](https://sites.google.com/view/sps-seminar-series/home?authuser=0) every two weeks, friday afternoon
-- [Robust Optimization webinar](https://sites.google.com/view/row-series/home) every two weeks, friday afternoon
-- [Séminaire Parisien d'Optimisation](https://sites.google.com/site/spoihp/) once a month, monday afternoon, at IHP
+- [Robust Optimization webinar](https://sites.google.com/view/row-series/home) every two weeks, Friday afternoon
+- [Séminaire Parisien d'Optimisation](https://sites.google.com/site/spoihp/) once a month, Monday afternoon, at IHP
 - [CERMICS' Colloquium](https://cermics-lab.enpc.fr/seminaires/colloquium-du-cermics/) 3-4 times a year, presence is strongly recommended for CERMICS' PhD Students
 
 Some recommended mailing lists:
 - [GdR ROD](http://gdrro.lip6.fr/?q=node/24), very active list of french operation research society. 
 - [Stoprog](https://stoprog.org/mailman/listinfo/stoprog), stochastic programming society mailing list (worldwide)
-- [EWGSO](https://www.mii.lt/ewgso/index.php?page,members.en), european working group on stochastic optimization
-- [Lettre SMAI-MODE](http://smai.emath.fr/spip.php?article343&lang=fr), once a monce, focused on optimization
+- [EWGSO](https://www.mii.lt/ewgso/index.php?page,members.en), European working group on stochastic optimization
+- [Lettre SMAI-MODE](http://smai.emath.fr/spip.php?article343&lang=fr), once a month, focused on optimization
 - [Lettre SMAI](http://smai.emath.fr/base/adhesions_web/) every week, send new conferences info
-- [PGMO](https://listes.mathrice.fr/math.cnrs.fr/subscribe/pgmo-diffusion) french optimization and energy
+- [PGMO](https://listes.mathrice.fr/math.cnrs.fr/subscribe/pgmo-diffusion) French optimization and energy
 
 
 Some other useful links:

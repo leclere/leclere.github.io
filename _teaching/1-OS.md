@@ -9,7 +9,6 @@ location: "ENSTA, France"
 lesson: 1
 ---
 
-* Course schedule modified: Stochastic Programming full day on the 17th*
 
 This is a master level course about stochastic optimization that take place
 at ENSTA-Paris, room 1226. 
@@ -24,13 +23,14 @@ The course is in two part: stochastic gradient and stochastic programming.
 [practical work](../files/teaching/Saclay/fercoq/TP_MNIST_basic_functions.ipynb)
 
 Schedule:
-### (5/12/23) 9:15-12:00
-### (12/12/22) 9:15-12:00
-### (19/12/22) 9:15-12:00
-### (09/01/23) 9:15-12:00
-### (16/01/23) 9:15-12:00
-### (23/01/23) 9:15-12:00
-### (30/01/23) 9:15-12:00 (Exam)
+### (26/11/24) 9:15-12:00 room 2234
+### (03/12/24) 9:15-12:00 room 2151
+### (10/12/24) 9:15-12:00 room 1225
+### (17/12/24) 9:15-12:00 room 2151
+### (07/01/25) 9:15-12:00 room 2151
+### (14/01/25) 9:15-12:00 room 2151
+### (21/01/25) 9:15-12:00 room 2151
+### (28/01/25) 9:15-12:00 room 2151 (Exam)
 
 Covering
 - Introduction
@@ -46,38 +46,47 @@ Covering
 
 [Printable Handout](../files/teaching/Saclay/Saclay-handout.pdf)
 
+Schedule:
+### (26/11/24) 13:30-16:15 room 2234
+### (03/12/24) 13:30-16:15 room 2151
+### (10/12/24) 13:30-16:15 room 2151
+### (17/12/24) 13:30-16:15 room 2151
+### (07/01/25) 13:30-16:15 room 2151
+### (14/01/25) 13:30-16:15 room 2151
+### (21/01/25) 13:30-16:15 room 2151
+### (28/01/25) 13:30-16:15 room 2151 (Exam)
 
 ### Practical work
-To be sent by email for the 07/01/24.
+
 
 [github link](https://github.com/leclere/TP-Saclay)
 
-### 1. Introduction to stochastic optimization (5/12/23) 13:30-16:15
+### 1. Introduction to stochastic optimizatio
 
 [slides](../files/teaching/Saclay/Saclay-1.pdf)
 
-### 2. Two-stage problems (12/12/23) 13:30-16:15
+### 2. Two-stage problems
 
 [slides](../files/teaching/Saclay/Saclay-2.pdf)
 
-### 3. Dynamic Programming and Bellman's Operators (19/12/22) 13:30-16:15
+### 3. Dynamic Programming and Bellman's Operators
 
 [slides](../files/teaching/Saclay/Saclay-3.pdf)
 
-### 4. Numerical methods for two-stage programming (09/01/24) 13:30-16:15
+### 4. Numerical methods for two-stage programming
 
 [slides](../files/teaching/Saclay/Saclay-4.pdf)
 
-### 5. Stochastic Dual Dynamic Programming (16/01/24) 13:30-16:15
+### 5. Stochastic Dual Dynamic Programming
 
 [slides](../files/teaching/Saclay/Saclay-5.pdf)
 
-### 6. Robust optimization (23/01/24) 13:30-16:15
+### 6. Robust optimization
 
 [slides](../files/teaching/Saclay/Saclay-6.pdf)
 [slides Robust Optimization](../files/teaching/Saclay/Saclay-7.pdf)
 
-### 7. Exam (30/01/24) 13:30-16:15
+### 7. Exam 
 
 ### Past exam
 
