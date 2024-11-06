@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "My personal webpage"
-excerpt: "Site under construction"
+excerpt: "My personal webpage"
 author_profile: true
 redirect_from: 
   - /about/

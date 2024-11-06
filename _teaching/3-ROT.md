@@ -19,7 +19,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 
 [Handout notes](../files/teaching/ROT/ROT_poly.pdf) [Youtube Playlist](https://www.youtube.com/playlist?list=PLWbSa0uhIdsbox7eHDOVDN1MoUi5TRacG)
 
-### 31/01/23 Urban transportation transport analysis and introduction to game theory
+### 08/11/24 *ONLINE* Urban transportation transport analysis and introduction to game theory 
 
 [slides](../files/teaching/ROT/ROT-1.pdf)
 
@@ -27,7 +27,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 - We recall the Braess's paradox
 - We give essential game theory definitions
 
-### 7/02/23 Shortest Path algorithms
+### 15/11/24 Shortest Path algorithms
 
 [slides](../files/teaching/ROT/ROT-2.pdf)
 
@@ -37,7 +37,7 @@ The course is topped-up by a practical work and various intervention showcasing 
   - Bellman
   - A*
 
-### 14/02/23 Wardrop equilibrium and price of anarchy
+### 22/11/24 Wardrop equilibrium and price of anarchy
 
 [slides](../files/teaching/ROT/ROT-3.pdf)
 
@@ -46,7 +46,7 @@ The course is topped-up by a practical work and various intervention showcasing 
 - We show that the user equilibrium can be found as the minimum of a convex optimization problem
 - We define and bound the price of anarchy
 
-### 21/02/23 Numerical methods for finding user equilibrium and social optimum
+### 29/11/24 Numerical methods for finding user equilibrium and social optimum
 
 [slides](../files/teaching/ROT/ROT-4.pdf)
 
@@ -57,13 +57,13 @@ Thus, in this course we study numerical methods to find it.
 - Conditional gradient (a.k.a Franck-Wolfe) algorithm
 - Application to equilibrium computation and comparison to known heuristics
 
-### 7/03/23 Practical work
+### 6/12/24 Practical work
 
 [TP](https://gdalle.github.io/ROT-TP/)
 
-### 14/03/23 Other transport related operation research problems
+### 13/12/24 Other transport related operation research problems
 
-### 04/04/23 Exam
+### 20/12/24 Exam
 [Exam 2017](../files/teaching/ROT/DS_2017.pdf)
 [Exam 2018](../files/teaching/ROT/DS_2018.pdf)
 [Exam 2019](../files/teaching/ROT/DS_2019.pdf)

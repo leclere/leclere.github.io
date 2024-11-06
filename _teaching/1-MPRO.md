@@ -23,46 +23,46 @@ To be sent by email for the 20/02/2023.
 
 [github link](https://github.com/leclere/TP-Saclay) -->
 
-### 1. Stochastic Programming principles (17/11/23) 9:00 - 12:30 
-(Conté : Accès 31 Etage 1 Salle 67 PC)
+### 1. Stochastic Programming principles (13/11/24) 9:00 - 12:30 
+(St Martin : Accès 21 Etage  2 Salle 44)
 [slides](../files/teaching/MPRO/MPRO-1.pdf)
 * Principles of optimization under uncertainties
 * Stochastic Programming approach, newsvendor problem
 * Information structure, VSS, EVPI
 * Sample Average Approximation 
 
-### 2. Robust Optimization principles (24/11/23) 9:00 - 12:30
-(St Martin:Accès 21‑Etage 1‑Salle 20)
+### 2. Robust Optimization principles (20/11/24) 9:00 - 12:30
+(St Martin:Accès 17‑Etage 1‑Salle 04)
 [slides](../files/teaching/MPRO/MPRO-2.pdf)
 * Robust optimization principles
 * Solving methodologies
 * The linear case
 * Probabilistic guarantees
 
-### 3. Decomposition methods for two-stage stochastic programming (01/12/23) 9:00 - 12:30
-(Amphi Prouvé accès 11 RDC)
+### 3. Decomposition methods for two-stage stochastic programming (27/11/24) 9:00 - 12:30
+(St Martin:Accès 17‑Etage 1‑Salle 04)
 [slides](../files/teaching/MPRO/MPRO-3.pdf)
 * L-shaped decomposition
 * Progressive Hedging
 * Extension to multistage
 
-### 4. Numerical methods for multistage stochastic programming (08/12/23) 9:00 - 12:30
-(St Martin:Accès 17‑Etage 1‑Salle 04)
+### 4. Numerical methods for multistage stochastic programming (04/12/24) 9:00 - 12:30
+(St Martin:Accès 21‑Etage 2‑Salle 28)
 [slides](../files/teaching/MPRO/MPRO-4.pdf)
 * Heuristics: Model Predictive Control, (Repeated) Two-stage approximation
 * Dynamic Programming principle and extensions
 * SDDP algorithm for convex case
 
-### 5. Numerical methods for robust optimization (15/12/23) 9:00 - 12:30
-(Conté : Accès 31 Etage 1 Salle 67)
+### 5. Numerical methods for robust optimization (11/12/24) 9:00 - 12:30
+(St Martin:Accès 21‑Etage 2‑Salle 23)
 [slides](../files/teaching/MPRO/MPRO-5.pdf)
 [slides Risk-measures](../files/teaching/MPRO/risk_measures.pdf)
 * Recourse model: affine decision rules, K-adaptability
 * Risk measures
 
 
-### 6. Exam (22/12/23) 9:00 - 12:00
-(Conté : Amphitheatre Gaston Planté)
+### 6. Exam (18/12/23) 9:00 - 12:00
+(St Martin:Accès 17‑Etage 2‑Salle 07)
 
 ### Past exam (other course)
 
