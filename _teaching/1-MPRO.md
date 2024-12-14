@@ -61,8 +61,12 @@ To be sent by email for the 20/02/2023.
 * Risk measures
 
 
-### 6. Exam (18/12/23) 9:00 - 12:00
+### 6. Exam (18/12/24) 9:00 - 12:00
 (St Martin:Accès 17‑Etage 2‑Salle 07)
+
+### Past exam (MPRO)
+- [2023](../files/teaching/MPRO/DS-2023-MPRO.pdf) [answers](../files/teaching/MPRO/DS-2023-MPRO-answers.pdf)
+
 
 ### Past exam (other course)
 
