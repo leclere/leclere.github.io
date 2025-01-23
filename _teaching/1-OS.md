@@ -41,6 +41,7 @@ Covering
 
 ### Past exam
 [2023](../files/teaching/Saclay/fercoq/exam2023.pdf)
+[2024](../files/teaching/Saclay/2024-exam-fercoq.pdf)
 
 ## Stochastic and Dynamic programming (by V. Leclère)
 
