@@ -39,7 +39,7 @@ Covering
 - Adaptative step-sizes
 - Coordinate descent
 
-### Past exam
+### Past exam 
 [2023](../files/teaching/Saclay/fercoq/exam2023.pdf)
 [2024](../files/teaching/Saclay/2024-exam-fercoq.pdf)
 
@@ -53,7 +53,6 @@ Schedule:
 ### (10/12/24) 13:30-16:15 room 2151
 ### (17/12/24) 13:30-16:15 room 2151
 ### (07/01/25) 13:30-16:15 room 2151
-### (14/01/25) 13:30-16:15 room 2151
 ### (21/01/25) 13:30-16:15 room 2151
 ### (28/01/25) 13:30-16:15 room 2151 (Exam)
 
