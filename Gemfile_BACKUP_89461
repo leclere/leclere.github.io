@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
+end
+
+<<<<<<< HEAD
+gem "webrick", "~> 1.7"
+=======
+gem 'github-pages'
+>>>>>>> 1acca92e64c8e345fdda983aca94f1ce0bbd3447

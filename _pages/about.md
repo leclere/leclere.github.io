@@ -15,10 +15,8 @@ You'll find there my [publications](https://leclere.github.io/publications/), [t
 Some news:
 
 <!-- - We have an open [2 years post-doc opportunity](https://cermics-lab.enpc.fr/cauchy-fellowship/). Please reach out if you are interested! -->
-- We are organizing [ICSP XVII 28/07-01/08/2025](https://www.icsp2025.org/) at Ecole des Ponts
-- I was elected as VP to relationship with industry of [SMAI](http://smai.emath.fr/)
-- [My Tutorial on SDDP](https://leclere.github.io/talks/SDDP) at ICSP 2023 
-- We got the 2022 Best Paper Award of Operations Research Letters for our paper [*Generalized adaptive partition-based method for two-stage stochastic linear programs: Geometric oracle and analysis*](https://leclere.github.io/publication/2021-GAPM) with Maël Forcier
+- We organized [ICSP XVII 28/07-01/08/2025](https://www.icsp2025.org/) at Ecole des Ponts
+- I am VP to relationship with industry of [SMAI](http://smai.emath.fr/)
 - I defended my [Habilitation à Diriger des Recherches](https://leclere.github.io/files/hdr.pdf) in april 2023
 
 Some recommended seminars:
