@@ -4,29 +4,24 @@ on:
   push:
     branches:
       - master
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Ruby
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
-        git clone https://github.com/rbenv/ruby-build.git
-        PREFIX=/usr/local ./ruby-build/install.sh
-        sudo ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
-        echo 'export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"' >> $GITHUB_ENV
-        touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
-
-    - name: Run bundler
-      run: |
-        gem install bundler
-        bundle install
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
 
     - name: Build site
       run: bundle exec jekyll build
