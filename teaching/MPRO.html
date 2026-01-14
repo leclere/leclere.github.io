@@ -1,0 +1,470 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Optimization Under Uncertainty - Making decision in an uncertain environment</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Making decision in an uncertain environment">
+<meta property="og:title" content="Optimization Under Uncertainty">
+
+
+  <link rel="canonical" href="https://leclere.github.io/teaching/MPRO">
+  <meta property="og:url" content="https://leclere.github.io/teaching/MPRO">
+
+
+
+  <meta property="og:description" name="description" content="This is a master level course about optimization under uncertainty, that take place at CNAM, (various room). See here for access information (“Matières” then “MPRO”).">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2023-11-01T00:00:00+01:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Vincent Leclère",
+      "url" : "https://leclere.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://leclere.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Making decision in an uncertain environment Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://leclere.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://leclere.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://leclere.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://leclere.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://leclere.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://leclere.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://leclere.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://leclere.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://leclere.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://leclere.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://leclere.github.io/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://leclere.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://leclere.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://leclere.github.io/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://leclere.github.io/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://leclere.github.io/">Making decision in an uncertain environment</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/teaching/">Teaching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/tutorials/">Tutorials</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/talks/">Talks</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://leclere.github.io/images/profile.png" class="author__avatar" alt="V. Leclère">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">V. Leclère</h3>
+    <p class="author__pronouns">he/him</p>
+    <p class="author__bio">Researcher in optimization under uncertainty</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Paris</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>ENPC - IPP</li>
+      
+      
+      
+        <li><a href="mailto:vincent.leclere_at_enpc.fr"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.fr/citations?user=pm7yzg4AAAAJ&hl=en"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+        <li><a href="https://orcid.org/0000-0002-5757-6655"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/leclere"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Optimization Under Uncertainty">
+    <meta itemprop="description" content="This is a master level course about optimization under uncertainty, that take place at CNAM, (various room). See here for access information (“Matières” then “MPRO”).">
+    <meta itemprop="datePublished" content="November 01, 2023">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Optimization Under Uncertainty
+</h1>
+          
+        
+        
+        
+          <p> Graduate course, <i>MPRO, M2</i>, 2023 </p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This is a master level course about optimization under uncertainty, 
+that take place at CNAM, (various room). 
+See <a href="http://emploidutemps.cnam.fr/invite">here</a> for access information (“Matières” then “MPRO”).</p>
+
+<h2 id="stochastic-and-dynamic-programming-by-v-leclère">Stochastic and Dynamic programming (by V. Leclère)</h2>
+
+<!-- ### Practical work
+To be sent by email for the 20/02/2023. 
+
+[github link](https://github.com/leclere/TP-Saclay) -->
+
+<h3 id="1-stochastic-programming-principles-131124-900---1230">1. Stochastic Programming principles (13/11/24) 9:00 - 12:30</h3>
+<p>(St Martin : Accès 21 Etage  2 Salle 44)
+<a href="../files/teaching/MPRO/MPRO-1.pdf">slides</a></p>
+<ul>
+  <li>Principles of optimization under uncertainties</li>
+  <li>Stochastic Programming approach, newsvendor problem</li>
+  <li>Information structure, VSS, EVPI</li>
+  <li>Sample Average Approximation</li>
+</ul>
+
+<h3 id="2-robust-optimization-principles-201124-900---1230">2. Robust Optimization principles (20/11/24) 9:00 - 12:30</h3>
+<p>(St Martin:Accès 17‑Etage 1‑Salle 04)
+<a href="../files/teaching/MPRO/MPRO-2.pdf">slides</a></p>
+<ul>
+  <li>Robust optimization principles</li>
+  <li>Solving methodologies</li>
+  <li>The linear case</li>
+  <li>Probabilistic guarantees</li>
+</ul>
+
+<h3 id="3-decomposition-methods-for-two-stage-stochastic-programming-271124-900---1230">3. Decomposition methods for two-stage stochastic programming (27/11/24) 9:00 - 12:30</h3>
+<p>(St Martin:Accès 17‑Etage 1‑Salle 04)
+<a href="../files/teaching/MPRO/MPRO-3.pdf">slides</a></p>
+<ul>
+  <li>L-shaped decomposition</li>
+  <li>Progressive Hedging</li>
+  <li>Extension to multistage</li>
+</ul>
+
+<h3 id="4-numerical-methods-for-multistage-stochastic-programming-041224-900---1230">4. Numerical methods for multistage stochastic programming (04/12/24) 9:00 - 12:30</h3>
+<p>(St Martin:Accès 21‑Etage 2‑Salle 28)
+<a href="../files/teaching/MPRO/MPRO-4.pdf">slides</a></p>
+<ul>
+  <li>Heuristics: Model Predictive Control, (Repeated) Two-stage approximation</li>
+  <li>Dynamic Programming principle and extensions</li>
+  <li>SDDP algorithm for convex case</li>
+</ul>
+
+<h3 id="5-numerical-methods-for-robust-optimization-111224-900---1230">5. Numerical methods for robust optimization (11/12/24) 9:00 - 12:30</h3>
+<p>(St Martin:Accès 21‑Etage 2‑Salle 23)
+<a href="../files/teaching/MPRO/MPRO-5.pdf">slides</a>
+<a href="../files/teaching/MPRO/risk_measures.pdf">slides Risk-measures</a></p>
+<ul>
+  <li>Recourse model: affine decision rules, K-adaptability</li>
+  <li>Risk measures</li>
+</ul>
+
+<h3 id="6-exam-181224-900---1200">6. Exam (18/12/24) 9:00 - 12:00</h3>
+<p>(St Martin:Accès 17‑Etage 2‑Salle 07)</p>
+
+<h3 id="past-exam-mpro">Past exam (MPRO)</h3>
+<ul>
+  <li><a href="../files/teaching/MPRO/DS-2023-MPRO.pdf">2023</a> <a href="../files/teaching/MPRO/DS-2023-MPRO-answers.pdf">answers</a></li>
+</ul>
+
+<h3 id="past-exam-other-course">Past exam (other course)</h3>
+
+<ul>
+  <li><a href="../files/teaching/Saclay/2018-exam-OS.pdf">2018</a> <a href="../files/teaching/Saclay/2018-exam-answers-OS.pdf">answers</a></li>
+  <li><a href="../files/teaching/Saclay/2019-exam-OS.pdf">2019</a> <a href="../files/teaching/Saclay/2019-exam-answers-OS.pdf">answers</a></li>
+  <li><a href="../files/teaching/Saclay/2020-exam-OS.pdf">2020</a></li>
+  <li><a href="../files/teaching/Saclay/2021-exam-OS.pdf">2021</a> <a href="../files/teaching/Saclay/2021-exam-answers-OS.pdf">answers</a></li>
+</ul>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="https://www.researchgate.net/publication/230873408_Lectures_on_stochastic_programming_Modeling_and_theory/link/00b7d518bd65f08595000000/download">Lectures on Stochastic Programming, Shapiro, Dentcheva, Ruszczynski</a></li>
+  <li><a href="https://www.jstor.org/stable/23070141">Theory and applications of robust optimization, Bertsimas, Brown, Caramis</a></li>
+</ul>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://x.com/intent/post?text=https://leclere.github.io/teaching/MPRO" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://leclere.github.io/teaching/MPRO" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://leclere.github.io/teaching/MPRO" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="https://leclere.github.io/teaching/ROT" class="pagination--pager" title="Operation Research and transport
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/leclere"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="https://leclere.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; 2026 Vincent Leclère, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated 2026-01-14
+</div>
+
+      </footer>
+    </div>
+
+    <script src="https://leclere.github.io/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

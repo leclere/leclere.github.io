@@ -1,0 +1,10 @@
+## Turning each file in handout and then merging them and deleting files
+pdfjam Saclay-1.pdf Saclay-2.pdf Saclay-3.pdf Saclay-4.pdf Saclay-5.pdf Saclay-6.pdf --nup 2x2 --frame true --noautoscale false --delta "0.2cm 0.3cm" --scale 0.98 --landscape --suffix handout --batch  
+pdfjam Saclay-1-handout.pdf Saclay-2-handout.pdf Saclay-3-handout.pdf Saclay-4-handout.pdf Saclay-5-handout.pdf Saclay-6-handout.pdf --outfile Saclay-handout.pdf --landscape 
+rm Saclay-*-handout.pdf
+
+
+
+## Old
+pdftk Saclay-1.pdf Saclay-2.pdf Saclay-3.pdf Saclay-4.pdf Saclay-5.pdf Saclay-6.pdf cat output Saclay-handout.pdf
+pdfjam --nup 2x2 --frame true --noautoscale false --delta "0.2cm 0.3cm" --scale 0.98 --suffix 4-scaled --landscape Saclay-handout.pdf

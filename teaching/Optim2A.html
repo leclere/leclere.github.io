@@ -1,0 +1,492 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Convex optimization - Making decision in an uncertain environment</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Making decision in an uncertain environment">
+<meta property="og:title" content="Convex optimization">
+
+
+  <link rel="canonical" href="https://leclere.github.io/teaching/Optim2A">
+  <meta property="og:url" content="https://leclere.github.io/teaching/Optim2A">
+
+
+
+  <meta property="og:description" name="description" content="This is a 4th year course about continuous (mainly convex) optimization.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2022-01-01T00:00:00+01:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Vincent Leclère",
+      "url" : "https://leclere.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://leclere.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Making decision in an uncertain environment Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://leclere.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://leclere.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://leclere.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://leclere.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://leclere.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://leclere.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://leclere.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://leclere.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://leclere.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://leclere.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://leclere.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://leclere.github.io/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://leclere.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://leclere.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://leclere.github.io/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://leclere.github.io/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://leclere.github.io/">Making decision in an uncertain environment</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/teaching/">Teaching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/tutorials/">Tutorials</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/talks/">Talks</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://leclere.github.io/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://leclere.github.io/images/profile.png" class="author__avatar" alt="V. Leclère">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">V. Leclère</h3>
+    <p class="author__pronouns">he/him</p>
+    <p class="author__bio">Researcher in optimization under uncertainty</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Paris</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>ENPC - IPP</li>
+      
+      
+      
+        <li><a href="mailto:vincent.leclere_at_enpc.fr"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.fr/citations?user=pm7yzg4AAAAJ&hl=en"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+        <li><a href="https://orcid.org/0000-0002-5757-6655"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/leclere"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Convex optimization">
+    <meta itemprop="description" content="This is a 4th year course about continuous (mainly convex) optimization.">
+    <meta itemprop="datePublished" content="January 01, 2022">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Convex optimization
+</h1>
+          
+        
+        
+        
+          <p> Undergraduate course, <i>Ecole des Ponts, 2A</i>, 2022 </p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This is a 4th year course about continuous (mainly convex) optimization.</p>
+
+<p>The course is in two part:</p>
+
+<ul>
+  <li>Optimization under uncertainty through dynamic programming: 2 class and a project over the semester</li>
+  <li>Continuous optimization in three part
+    <ul>
+      <li>convex analysis and optimization theory (4 classes)</li>
+      <li>classical algorithms (3 classes)</li>
+      <li>more advanced materials (3 classes)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="documents">Documents</h2>
+
+<ul>
+  <li><a href="../files/teaching/2A-opti/handout-2A-OC.pdf">Handout slides</a></li>
+  <li><a href="https://web.stanford.edu/~boyd/cvxbook/">Reference book [BV] in the slides</a></li>
+  <li>
+    <p><a href="https://hal.archives-ouvertes.fr/hal-03347060">Another reference [JCG - French]</a></p>
+  </li>
+  <li><a href="../files/teaching/2A-opti/TP/Dice-trade.pdf">Project</a> to be done by pair for the 03/05/2024.
+ to be returned on 17/05/2024</li>
+  <li>
+    <p><a href="../files/teaching/2A-opti/TP/JuMPcrashcourse.ipynb">A notebook</a> to get a hand on julia.</p>
+  </li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/DM1-2024-corr.pdf">DM 24- with answers</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/DM1-2024.pdf">DM 24</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/2023-exam-corr.pdf">DS 23- with answers</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/DM1-2023.pdf">DM 23</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf">DM 22- with answers</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf">DS 22- with answers</a></li>
+  <li><a href="../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf">DM 21- with answers</a></li>
+  <li>
+    <p><a href="../files/teaching/2A-opti/DS-DM/2021-exam-corr.pdf">DS 21- with answers</a></p>
+  </li>
+  <li><a href="../files/teaching/2A-opti/TD/answered_exercises.pdf">Short answers to some exercises</a></li>
+</ul>
+
+<h2 id="timeline">Timeline</h2>
+
+<h3 id="010324---markov-chain-and-dynamic-programming">01/03/24 - Markov chain and Dynamic Programming</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/1-MDP.pdf">Exercises</a></p>
+
+<h3 id="080324---dynamic-programming-in-infinite-horizon">08/03/24 - Dynamic Programming in infinite horizon</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/1-DynamicProgramming.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TP/Dice-trade.pdf">Hands on (pdf)</a>
+<a href="../files/teaching/2A-opti/TP/TP_Dice_Trading.ipynb">Hands on (notebook)</a></p>
+
+<h3 id="150324---convex-analysis-1">15/03/24 - Convex analysis 1</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/2-Convex.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/2-Convexity-ex.pdf">Exercises</a></p>
+
+<h3 id="220324---convex-analysis-2">22/03/24 - Convex analysis 2</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/2-Convex.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/2-Convexity-ex.pdf">Exercises</a></p>
+
+<h3 id="290324---optimality-conditions">29/03/24 - Optimality conditions</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/3-OptimalityConditions.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/3-OptimalityConditions.pdf">Exercises</a></p>
+
+<h3 id="120424---duality">12/04/24 - Duality</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/4-duality.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/4-Duality.pdf">Exercises</a></p>
+
+<h3 id="260424---algorithms-zoology">26/04/24 - Algorithm’s zoology</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/5-Algorithm.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TD/5-Algorithms.pdf">Exercises</a></p>
+
+<h3 id="030524---gradient-and-newtons-algorithms">03/05/24 - Gradient and Newton’s algorithms</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/6-Gradient.pdf">slides</a>
+<a href="../files/teaching/2A-opti/slides/7-Newton.pdf">slides</a></p>
+
+<h3 id="170524---practical-work-on-algorithms">17/05/24 - Practical work on algorithms</h3>
+
+<p><a href="../files/teaching/2A-opti/TP/Gradient_methods_student.ipynb">Hands on (notebook)</a></p>
+
+<h3 id="240524---constrained-optimization">24/05/24 - Constrained optimization</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/8-Constrained.pdf">slides</a></p>
+
+<h3 id="310524---interior-points-methods">31/05/24 - Interior points methods</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/9-IPM.pdf">slides</a>
+<a href="../files/teaching/2A-opti/TP/IPM.ipynb">Hands on (notebook)</a></p>
+
+<h3 id="070624---stochastic-gradient">07/06/24 - Stochastic Gradient</h3>
+
+<p><a href="../files/teaching/2A-opti/slides/10-SG.pdf">slides</a></p>
+
+<h3 id="140624---exam">14/06/24 - Exam</h3>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://x.com/intent/post?text=https://leclere.github.io/teaching/Optim2A" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://leclere.github.io/teaching/Optim2A" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://leclere.github.io/teaching/Optim2A" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="https://leclere.github.io/teaching/OS" class="pagination--pager" title="Stochastic Optimization
+">Previous</a>
+    
+    
+      <a href="https://leclere.github.io/teaching/ROT" class="pagination--pager" title="Operation Research and transport
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/leclere"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="https://leclere.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; 2026 Vincent Leclère, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated 2026-01-14
+</div>
+
+      </footer>
+    </div>
+
+    <script src="https://leclere.github.io/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
