@@ -20,7 +20,7 @@ repository               : "leclere/leclere.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   name             : "V. Leclère"
   pronouns         : "he/him"  
   bio              : "Researcher in optimization under uncertainty"
