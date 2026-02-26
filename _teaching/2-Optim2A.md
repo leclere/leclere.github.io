@@ -41,32 +41,48 @@ The course is in two part:
 ### 13/02/26 - Numerical Linear Algebra
 
 [slides](../files/teaching/2A-opti/slides/1-LinearAlgebraRecall.pdf)
-[Exercises](../files/teaching/2A-opti/TD/1-LinearAlgebraRecall-Exercises.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/1-LinearAlgebraRecall-Exercises.pdf)
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/1-LinearAlgebraRecall-Exercises.pdf)
 
 ### 20/02/26 - Convex analysis 1
 
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
-[Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/2-Convexity.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/2-Convexity.pdf) - Answers for 20/02/26 Convex analysis 1
+{% endcomment %}
 
 ### 27/02/26 - Convex analysis 2
 
 [slides](../files/teaching/2A-opti/slides/2-Convex.pdf)
-[Exercises](../files/teaching/2A-opti/TD/2-Convexity-ex.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/2-Convexity.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/2-Convexity.pdf) - Answers for 27/02/26 Convex analysis 2
+{% endcomment %}
 
 ### 13/03/26 - Optimality conditions
 
 [slides](../files/teaching/2A-opti/slides/3-OptimalityConditions.pdf)
-[Exercises](../files/teaching/2A-opti/TD/3-OptimalityConditions.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/3-OptimalityConditions.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/3-OptimalityConditions.pdf) - Answers for 13/03/26 Optimality conditions
+{% endcomment %}
 
 ### 20/03/26 - Duality
 
 [slides](../files/teaching/2A-opti/slides/4-duality.pdf)
-[Exercises](../files/teaching/2A-opti/TD/4-Duality.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/4-Duality.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/4-Duality.pdf) - Answers for 20/03/26 Duality
+{% endcomment %}
 
 ### 03/04/26 - Algorithm's zoology
 
 [slides](../files/teaching/2A-opti/slides/5-Algorithm.pdf)
-[Exercises](../files/teaching/2A-opti/TD/5-Algorithms.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/5-Algorithms.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/5-Algorithms.pdf) - Answers for 03/04/26 Algorithm's zoology
+{% endcomment %}
 
 ### 17/04/26 - Gradient and Newton's algorithms
 
@@ -80,11 +96,19 @@ The course is in two part:
 ### 22/05/26 - Constrained optimization
 
 [slides](../files/teaching/2A-opti/slides/8-Constrained.pdf)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/6-GradientAlgorithm.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/6-GradientAlgorithm.pdf) - Answers for 22/05/26 Constrained optimization
+{% endcomment %}
 
 ### 29/05/26 - Interior points methods
 
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
 [Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
+[Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/7-ConstrainedOptimization.pdf)
+{% comment %}
+[Answers](../files/teaching/2A-opti/TD/pdf-answered/7-ConstrainedOptimization.pdf) - Answers for 29/05/26 Interior points methods
+{% endcomment %}
 
 ### 05/06/26 - Stochastic Gradient
 
