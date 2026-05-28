@@ -104,7 +104,7 @@ The course is in two part:
 ### 29/05/26 - Interior points methods
 
 [slides](../files/teaching/2A-opti/slides/9-IPM.pdf)
-[Hands on (notebook)](../files/teaching/2A-opti/TP/IPM.ipynb)
+[Hands on (notebook)](../files/teaching/2A-opti/TP/IPM_student.ipynb)
 [Exercises](../files/teaching/2A-opti/TD/pdf-not-answered/7-ConstrainedOptimization.pdf)
 {% comment %}
 [Answers](../files/teaching/2A-opti/TD/pdf-answered/7-ConstrainedOptimization.pdf) - Answers for 29/05/26 Interior points methods
