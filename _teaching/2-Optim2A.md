@@ -12,13 +12,11 @@ show_answers: true
 
 This is a 4th year course about continuous (mainly convex) optimization.
 
-The course is in two part:
-
-- Optimization under uncertainty through dynamic programming: 2 class and a project over the semester
-- Continuous optimization in three part
-  - convex analysis and optimization theory (4 classes)
-  - classical algorithms (3 classes)
-  - more advanced materials (3 classes)
+The course is in four parts:
+- numerical linear algebra (1 class)
+- convex analysis and optimization theory (4 classes)
+- classical algorithms (3 classes)
+- more advanced materials (3 classes)
 
 ## Documents
 
