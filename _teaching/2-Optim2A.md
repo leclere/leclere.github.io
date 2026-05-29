@@ -25,14 +25,18 @@ The course is in four parts:
 - [Another reference [JCG - French]](https://hal.archives-ouvertes.fr/hal-03347060)
 
 
-- [DM 24- with answers](../files/teaching/2A-opti/DS-DM/DM1-2024-corr.pdf)
-- [DM 24](../files/teaching/2A-opti/DS-DM/DM1-2024.pdf)
-- [DS 23- with answers](../files/teaching/2A-opti/DS-DM/2023-exam-corr.pdf)
-- [DM 23](../files/teaching/2A-opti/DS-DM/DM1-2023.pdf)
-- [DM 22- with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
-- [DS 22- with answers](../files/teaching/2A-opti/DS-DM/2022-exam-corr.pdf)
-- [DM 21- with answers](../files/teaching/2A-opti/DS-DM/DM1-2021-corr.pdf)
-- [DS 21- with answers](../files/teaching/2A-opti/DS-DM/2021-exam-corr.pdf)
+### DM
+
+- DM 2024: [without answers](../files/teaching/2A-opti/DS-DM/DM1-2024.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/DM1-2024-corr.pdf)
+- DM 2022: [without answers](../files/teaching/2A-opti/DS-DM/DM1-2022.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/DM1-2022-corr.pdf)
+
+### DS
+
+- DS 2025: [without answers](../files/teaching/2A-opti/DS-DM/pdf-not-answered/2025-exam.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/pdf-answered/2025-exam.pdf)
+- DS 2024: [without answers](../files/teaching/2A-opti/DS-DM/pdf-not-answered/2024-exam.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/pdf-answered/2024-exam.pdf)
+- DS 2023: [without answers](../files/teaching/2A-opti/DS-DM/pdf-not-answered/2023-exam.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/pdf-answered/2023-exam.pdf)
+- DS 2022: [without answers](../files/teaching/2A-opti/DS-DM/pdf-not-answered/2022-exam.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/pdf-answered/2022-exam.pdf)
+- DS 2021: [without answers](../files/teaching/2A-opti/DS-DM/pdf-not-answered/2021-exam.pdf) - [with answers](../files/teaching/2A-opti/DS-DM/pdf-answered/2021-exam.pdf)
 
 
 ## Timeline
