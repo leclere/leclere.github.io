@@ -2,12 +2,12 @@
 title: "Fairness by design in shared-energy allocation problems"
 authors: 'Z. Fornier, V. Leclère, P. Pinson'
 collection: publications
-category: preprint
-permalink: /publication/2024-Guaranteed
+category: published
+permalink: /publication/2024-Fairness
 excerpt: 'Fairness by design in shared-energy allocation problems'
-date: 2024-01-31
-venue: ''
-paperurl: 'https://leclere.github.io/files/papers/2024-Fairness.pdf'
+date: 2025-04-01
+venue: 'Computational Management Science, 22(2), 11.'
+paperurl: 'https://doi.org/10.1007/s10287-025-00532-7'
 citation: ''
 ---
 This paper studies how to aggregate prosumers (or large consumers) and their
@@ -24,3 +24,5 @@ objectives and constraints, within decision problems, that achieve fairness by
 design. We start from a simple single-period and deterministic model, and then
 generalize it to a dynamic and stochastic setting using, e.g., stochastic dominance
 constraints.
+
+[Download paper here](../files/papers/2024-Fairness.pdf) — also available as a preprint on [arXiv:2402.00471](https://arxiv.org/abs/2402.00471).

@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/Optim2A
 venue: "Ecole des Ponts, 2A"
-date: 2022-01-01
+date: 2025-09-01
 location: "ENPC, France"
 lesson: 1
 show_answers: true

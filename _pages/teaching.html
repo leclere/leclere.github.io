@@ -7,6 +7,22 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching %}
+{% comment %}
+  Order is controlled by the `date` front matter, most recent first.
+  Only the year is displayed, so the month is free to use for ordering
+  two courses within the same year.
+  Set `former: true` on a course to move it to the "Former courses" section.
+{% endcomment %}
+
+{% assign current_courses = site.teaching | where_exp: "course", "course.former != true" | sort: "date" | reverse %}
+{% for post in current_courses %}
   {% include archive-single.html %}
 {% endfor %}
+
+{% assign former_courses = site.teaching | where_exp: "course", "course.former == true" | sort: "date" | reverse %}
+{% if former_courses.size > 0 %}
+  <h2>Former courses</h2>
+  {% for post in former_courses %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

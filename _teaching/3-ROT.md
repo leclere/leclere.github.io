@@ -4,9 +4,10 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/ROT
 venue: "Ecole des Ponts, 1A"
-date: 2022-01-01
+date: 2022-06-01
 location: "ENPC, France"
 lesson: 2
+former: true
 ---
 
 This is a 3rd year course about the use of Operation Research in Transport problem.

@@ -7,6 +7,7 @@ venue: "IPP, M2"
 date: 2022-01-01
 location: "ENSTA, France"
 lesson: 1
+former: true
 ---
 
 

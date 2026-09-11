@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/MPRO
 venue: "MPRO, M2"
-date: 2023-11-01
+date: 2025-01-01
 location: "ENSTA, France"
 lesson: 1
 ---
