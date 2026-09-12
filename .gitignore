@@ -11,3 +11,7 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Local agent context: maps the private ~/Documents/Enseignement tree.
+# Keep out of this public repo.
+CLAUDE.md
