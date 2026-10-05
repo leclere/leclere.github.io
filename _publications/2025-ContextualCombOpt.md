@@ -2,11 +2,11 @@
 title: "Primal-dual algorithm for contextual stochastic combinatorial optimization"
 authors: 'L. Bouvier, T. Prunet, V. Leclère, A. Parmentier'
 collection: publications
-category: preprint
+category: published
 permalink: /publication/2025-ContextualCombOpt
 excerpt: 'Primal-dual algorithm for contextual stochastic combinatorial optimization'
 date: 2025-05-08
-venue: ''
+venue: 'Accepted in Mathematical Programming, Series A.'
 paperurl: 'https://arxiv.org/abs/2505.04757'
 citation: ''
 ---

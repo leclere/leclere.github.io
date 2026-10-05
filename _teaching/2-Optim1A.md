@@ -25,6 +25,7 @@ numerical verification*, and is organized in five parts:
 ## Documents
 
 - [Course textbook (English)](../files/teaching/1A-opti/poly/Optim1A-poly-en.pdf) - contains the exercises and their solutions
+- [Production planning homework](../files/teaching/1A-opti/homework/production_planning_homework.pdf) - can be done in small groups, with the help of LLMs, but it will be evaluated individually and without LLM on October 20th
 
 ## Timeline
 
