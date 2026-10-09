@@ -53,10 +53,14 @@ Grants and industrial contracts
 ======
 
 Current contracts
-* 2022 - 2025: Optimization of an isolated hybrid system (PI), TotalEnergies
-* 2021 - 2024: Optimization of a system coupling industrial production, renewable energy and energy storage (PI), Metron Energy
+* 2026 - 2029: Decision focused learning for energy management under uncertainty (PI), Schneider Electric
+* 2025 - 2028: Predictive maintenance of offshore wind farm grid connection substations (co-PI), RTE
+* 2025 - 2027: Decomposition methods for distributionally robust unit commitment (PI), PGMO
+* 2025 - 2027: Hybrid learning pipelines for medium-term hydropower scheduling in cascading reservoir systems (co-PI), PGMO
 
 Past contracts
+* 2022 - 2025: Optimization of an isolated hybrid system (PI), TotalEnergies
+* 2021 - 2024: Optimization of a system coupling industrial production, renewable energy and energy storage (PI), Metron Energy
 * 2021 - 2023: Mathematical model and solution methods for resilient and green supply chain design (PI), Chair Supply Chain of Tomorrow
 * 2021 - 2023: Reverse logistic inventory routing (co-PI), Renault
 * 2019 - 2023: Two-scale optimization problems (PI), PGMO - EDF
