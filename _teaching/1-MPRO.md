@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/MPRO
 venue: "MPRO, M2"
-date: 2025-01-01
+date: 2026-11-01
 location: "ENSTA, France"
 lesson: 1
 ---
@@ -61,7 +61,7 @@ To be sent by email for the 20/02/2023.
 * Risk measures
 
 
-### 6. Exam (09/01/27) 9:00 - 12:00
+### 6. Exam (06/01/27) 9:00 - 12:00
 (St Martin:Accès 17‑Etage 2‑Salle 07)
 
 ### Past exam (MPRO)
