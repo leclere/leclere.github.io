@@ -61,6 +61,7 @@ To be sent by email for the 20/02/2023.
 
 
 ### 6. Exam (06/01/27) 9:00 - 12:00
+(St Martin : Accès 17 - Etage 2 - Salle 06)
 
 ### Resit exam (05/03/27) 9:00 - 12:30
 (St Martin : Accès 17 - Etage 1 - Salle 16)
