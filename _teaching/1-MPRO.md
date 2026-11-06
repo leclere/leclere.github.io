@@ -23,8 +23,7 @@ To be sent by email for the 20/02/2023.
 
 [github link](https://github.com/leclere/TP-Saclay) -->
 
-### 1. Stochastic Programming principles (04/11/26) 9:00 - 12:30 
-(St Martin : Accès 21 Etage  2 Salle 44)
+### 1. Stochastic Programming principles (04/11/26) 9:00 - 12:30
 [slides](../files/teaching/MPRO/MPRO-1.pdf)
 * Principles of optimization under uncertainties
 * Stochastic Programming approach, newsvendor problem
@@ -32,7 +31,7 @@ To be sent by email for the 20/02/2023.
 * Sample Average Approximation 
 
 ### 2. Robust Optimization principles (25/11/26) 9:00 - 12:30
-(St Martin:Accès 17‑Etage 1‑Salle 04)
+(St Martin : Accès 21 - Etage 2 - Salle 37)
 [slides](../files/teaching/MPRO/MPRO-2.pdf)
 * Robust optimization principles
 * Solving methodologies
@@ -40,21 +39,21 @@ To be sent by email for the 20/02/2023.
 * Probabilistic guarantees
 
 ### 3. Decomposition methods for two-stage stochastic programming (02/12/26) 9:00 - 12:30
-(St Martin:Accès 17‑Etage 1‑Salle 04)
+(St Martin : Accès 21 - Etage 2 - Salle 20)
 [slides](../files/teaching/MPRO/MPRO-3.pdf)
 * L-shaped decomposition
 * Progressive Hedging
 * Extension to multistage
 
 ### 4. Numerical methods for multistage stochastic programming (09/12/26) 9:00 - 12:30
-(St Martin:Accès 21‑Etage 2‑Salle 28)
+(St Martin : Accès 17 - Etage 1 - Salle 04)
 [slides](../files/teaching/MPRO/MPRO-4.pdf)
 * Heuristics: Model Predictive Control, (Repeated) Two-stage approximation
 * Dynamic Programming principle and extensions
 * SDDP algorithm for convex case
 
 ### 5. Numerical methods for robust optimization (16/12/26) 9:00 - 12:30
-(St Martin:Accès 21‑Etage 2‑Salle 23)
+(Conté : Accès 30 - Sous-sol - Salle 21)
 [slides](../files/teaching/MPRO/MPRO-5.pdf)
 [slides Risk-measures](../files/teaching/MPRO/risk_measures.pdf)
 * Recourse model: affine decision rules, K-adaptability
@@ -62,7 +61,9 @@ To be sent by email for the 20/02/2023.
 
 
 ### 6. Exam (06/01/27) 9:00 - 12:00
-(St Martin:Accès 17‑Etage 2‑Salle 07)
+
+### Resit exam (05/03/27) 9:00 - 12:30
+(St Martin : Accès 17 - Etage 1 - Salle 16)
 
 ### Past exam (MPRO)
 - [2023](../files/teaching/MPRO/DS-2023-MPRO.pdf) [answers](../files/teaching/MPRO/DS-2023-MPRO-answers.pdf)
