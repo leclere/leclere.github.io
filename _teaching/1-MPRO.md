@@ -24,7 +24,7 @@ To be sent by email for the 20/02/2023.
 [github link](https://github.com/leclere/TP-Saclay) -->
 
 ### 1. Stochastic Programming principles (04/11/26) 9:00 - 12:30
-[slides](../files/teaching/MPRO/MPRO-1.pdf)
+[slides, part a](../files/teaching/MPRO/MPRO-1a.pdf) [slides, part b](../files/teaching/MPRO/MPRO-1b.pdf)
 * Principles of optimization under uncertainties
 * Stochastic Programming approach, newsvendor problem
 * Information structure, VSS, EVPI
