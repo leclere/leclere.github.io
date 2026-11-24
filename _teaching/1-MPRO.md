@@ -30,27 +30,28 @@ To be sent by email for the 20/02/2023.
 * Information structure, VSS, EVPI
 * Sample Average Approximation 
 
-### 2. Robust Optimization principles (25/11/26) 9:00 - 12:30
+### 2. Decomposition methods and multistage stochastic programming (25/11/26) 9:00 - 12:30
 (St Martin : Accès 21 - Etage 2 - Salle 37)
+[slides, part a](../files/teaching/MPRO/MPRO-2a.pdf) [slides, part b](../files/teaching/MPRO/MPRO-2b.pdf)
+* Dual decomposition and Progressive Hedging
+* L-shaped decomposition, adaptive partitions
+* Multistage problems: scenario tree and extensive formulations
+* Bounds and heuristics: Model Predictive Control, (Repeated) Two-stage approximation
+
+### 3. Stochastic dynamic programming (02/12/26) 9:00 - 12:30
+(St Martin : Accès 21 - Etage 2 - Salle 20)
+[slides](../files/teaching/MPRO/MPRO-4.pdf)
+* Dynamic Programming principle and extensions
+* Bellman operators, the linear-quadratic and convex cases
+* SDDP algorithm for convex case
+
+### 4. Robust Optimization principles (09/12/26) 9:00 - 12:30
+(St Martin : Accès 17 - Etage 1 - Salle 04)
 [slides](../files/teaching/MPRO/MPRO-2.pdf)
 * Robust optimization principles
 * Solving methodologies
 * The linear case
 * Probabilistic guarantees
-
-### 3. Decomposition methods for two-stage stochastic programming (02/12/26) 9:00 - 12:30
-(St Martin : Accès 21 - Etage 2 - Salle 20)
-[slides](../files/teaching/MPRO/MPRO-3.pdf)
-* L-shaped decomposition
-* Progressive Hedging
-* Extension to multistage
-
-### 4. Numerical methods for multistage stochastic programming (09/12/26) 9:00 - 12:30
-(St Martin : Accès 17 - Etage 1 - Salle 04)
-[slides](../files/teaching/MPRO/MPRO-4.pdf)
-* Heuristics: Model Predictive Control, (Repeated) Two-stage approximation
-* Dynamic Programming principle and extensions
-* SDDP algorithm for convex case
 
 ### 5. Numerical methods for robust optimization (16/12/26) 9:00 - 12:30
 (Conté : Accès 30 - Sous-sol - Salle 21)
